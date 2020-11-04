@@ -15,7 +15,7 @@ filenames = ["file1", "file2", "file3"]
 length = len(filenames)
 
 
-index = 1
+index = [1,2,3]
 dic = dict(zip(index, filenames))
 index_selected = st.radio('select the filename?',index, format_func=lambda x: dic[x])
 
